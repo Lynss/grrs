@@ -1,0 +1,1 @@
+a demo to study rust

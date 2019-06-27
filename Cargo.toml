@@ -1,0 +1,25 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+authors = ["longyun <ly1169134156@163.com>"]
+edition = "2018"
+description = "A tool to search files"
+homepage = "https://github.com/Lynss/grrs"
+repository = "https://github.com/Lynss/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.2.10"
+failure = "0.1.5"
+exitfailure = "0.5.1"
+indicatif = "0.11.0"
+tempfile = "3.0.8"
+
+[dev-dependencies]
+assert_cmd = "0.10"
+predicates = "1"
